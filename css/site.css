@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Scheherazade+New:wght@700&display=swap');
+
+html {
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+header {
+    font-size: .67rem;
+    background-color: black;
+    text-align: right;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-size: .67rem;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1, h2 {
+    font-family: 'Scheherazade New','Times New Roman',serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    text-indent: 1rem;
+    line-height: 1em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;    
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+
+.hero {
+    position: relative;
+    color: white;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.blurb{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.img-item {
+    min-width: 50%;
+        height: auto; 
+}
+
+.text-item {
+    padding-top: 0.67rem;
+    padding-left: 0.67rem;
+    padding-right: 0.67rem;
+}
+
+.menu {
+    text-align: center;
+
+}
+
+.menu ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.centered-textbox {
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-textbox p {
+    margin: 0;
+}
